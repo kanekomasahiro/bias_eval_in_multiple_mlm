@@ -24,7 +24,9 @@ All requirements can be found in `requirements.txt`. You can install all require
 
 You can evaluate the bias using --corpus to select the a parallel corpus and --lang to select the languages.
 
+```
 python eval.py --corpus [ted, news] --lang [de, ja, ar, es, pt, ru, id, zh] --method aula 
+```
 
 ## 💻 Japanese and Russian corpora to evaluate social biases 
 
